@@ -8,7 +8,7 @@ License: BSD
 Vendor: Red Hat / Varnish
 Cartridge-Version: 0.1
 Cartridge-Vendor: community
-Source-Url: https://github.com/mmcgrath-openshift/openshift-cartridge-varnish.git
+Source-Url: https://github.com/michaelryanmcneill/openshift-cartridge-varnish.git
 Categories:
   - service
   - web_framework
@@ -16,7 +16,7 @@ Provides:
   - varnish-0.1
   - "varnish"
 Cart-Data:
-  - Key: LD_LIBRARH_PATH
+  - Key: LD_LIBRARY_PATH
     Type: environment
     Description: "Updated LD_LIBRARY_PATH"
 Group-Overrides:
